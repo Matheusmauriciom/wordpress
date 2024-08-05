@@ -1,0 +1,68 @@
+footer {
+  background-color: #00344c;
+  width: 100%;
+  height: auto;
+  color: #fff;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .politica {
+    padding: 20px 0px;
+    background-color: #f4f1f1;
+
+    p {
+      color: black;
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+
+  .row {
+    gap: 50px 0px;
+  }
+
+  .logo-tarvos {
+    width: 300px;
+  }
+
+  .content-footer {
+    padding: 50px 0px;
+    @media (min-width: 767px) {
+      padding: 100px 0px;
+    }
+  }
+}
+
+header {
+  background-color: #00344c;
+
+  .navbar-brand {
+    img {
+      width: 150px;
+      height: auto;
+    }
+  }
+  ul {
+    a {
+      color: white;
+      margin-right: 20px;
+    }
+  }
+
+  .translate {
+    margin: auto;
+    width: 160px;
+    height: 36px;
+    background-color: white;
+    border: solid 1px black;
+  }
+}

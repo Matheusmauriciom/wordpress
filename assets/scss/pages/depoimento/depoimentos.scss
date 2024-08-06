@@ -1,0 +1,27 @@
+.page_depoimento{
+
+   width: 400px;
+   height: 400px;
+   border: solid 1px blue;
+  
+    h2{
+        color: red;
+    }
+    
+    .teste{
+        border: solid 1px red;
+
+     
+    }
+
+    p {
+        display: block; /* ou inline, inline-block, conforme a necessidade */
+        overflow: hidden; /* oculta o conteúdo excedente */
+        text-overflow: ellipsis; /* adiciona '...' ao texto que não cabe */
+        white-space: nowrap; /* impede que o texto quebre em várias linhas */
+        
+    }
+
+
+}
+
